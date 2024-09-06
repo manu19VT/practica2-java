@@ -70,17 +70,6 @@
           <text value="Borrar"/>
         </properties>
       </component>
-      <component id="39da9" class="javax.swing.JLabel" binding="jLabRes">
-        <constraints>
-          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <background color="-16777216"/>
-          <foreground color="-4867144"/>
-          <opaque value="true"/>
-          <text value=""/>
-        </properties>
-      </component>
     </children>
   </grid>
 </form>

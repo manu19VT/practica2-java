@@ -23,13 +23,13 @@ public class visual {
                 Double num1 = Double.parseDouble(textFNum1.getText());
                 Double num2 = Double.parseDouble(textFNum2.getText());
                 double res = num1 + num2;
-                jLabRes.setText("" + res);
+                JOptionPane.showMessageDialog(null,"EL RESULTADO ES = "+ res);
             }
         });
         borrarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jLabRes.setText("");
+
                 textFNum1.setText("");
                 textFNum2.setText("");
             }
@@ -41,7 +41,7 @@ public class visual {
                 Double num1 = Double.parseDouble(textFNum1.getText());
                 Double num2 = Double.parseDouble(textFNum2.getText());
                 double res = num1 - num2;
-                jLabRes.setText("" + res);
+                JOptionPane.showMessageDialog(null,"EL RESULTADO ES = " +res);
             }
         });
         multiplicacionButton.addActionListener(new ActionListener() {
@@ -51,7 +51,7 @@ public class visual {
                 Double num1 = Double.parseDouble(textFNum1.getText());
                 Double num2 = Double.parseDouble(textFNum2.getText());
                 double res = num1 * num2;
-                jLabRes.setText("" + res);
+                JOptionPane.showMessageDialog(null,"EL RESULTADO ES = "+ res);
             }
         });
         divisionButton.addActionListener(new ActionListener() {
@@ -61,7 +61,7 @@ public class visual {
                 Double num1 = Double.parseDouble(textFNum1.getText());
                 Double num2 = Double.parseDouble(textFNum2.getText());
                 double res = num1 / num2;
-                jLabRes.setText("" + res);
+                JOptionPane.showMessageDialog(null,"EL RESULTADO ES = "+ res);
 
             }
         });
